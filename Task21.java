@@ -15,7 +15,6 @@ public class Task21 {
 		b = 8;
 		
 		Scanner sc1 = new Scanner(System.in);
-		//Scanner sc2 = new Scanner(System.in);
 		
 		System.out.print(">>  ");
 		a = sc1.nextInt();
@@ -37,20 +36,11 @@ public class Task21 {
 			f = x - Math.sin(x);
 			f = (float) f;
 			x = (float) x; // привел к float чтобы использовать в printf
-							// f = (double)((int)(f*1000)%10000)/1000;
-
-			// f = (int) (f*1000);
-			// f = (double)f/1000;
-
-			// String sp = "%-1s %-3f %-1s %-6f %-1s%n";
-			// System.out.format(sp, "|" + x + "|" + f + "| " );
+							
 
 			System.out.printf("%-1s%-2f%-1s%-2f%-1s%n", "| ", x, " | ", f, " |");
 
-			// System.out.println("|" + x + "|" + f + "| ");
-			// System.out.printf("|" + x + "|" + "%5f \n", f );
-			// System.out.println("|" + x + "|" + printf("%5f", (float)f);
-			// System.out.println("|" + x + "|" + f + "| ");
+			
 		}
 
 	}
