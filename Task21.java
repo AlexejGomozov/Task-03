@@ -10,9 +10,6 @@ public class Task21 {
 	public static void task() {
 		int a, b;
 		double x, f, h;
-		h = 1.344556;
-		a = 3;
-		b = 8;
 		
 		Scanner sc1 = new Scanner(System.in);
 		
