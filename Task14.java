@@ -11,8 +11,7 @@ public static void task() {
 	 sum = 0;
 	for(double i=0; i<=n; i++) {
 		k = 1/(1+i);
-		sum = sum + k;}
-		System.out.print(sum);
-	
+		sum = sum + k;}	
 }
+	        System.out.print(sum);  
 }
