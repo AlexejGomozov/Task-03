@@ -8,20 +8,21 @@ public class Task25 {
 
 		Scanner sc = new Scanner(System.in);
 
-		int a, d, s;
+		int a, s;
 		s = 1;
 		System.out.print(">>  ");
 		a = sc.nextInt();
 		System.out.println("a = " + a);
 
-		String f = String.valueOf(a);
 
-		for (int i = f.length(); i > 0; i--) {
+		for (int i = 1; i <= a; i++) {
 
-			d = (a % (int) Math.pow(10, i)) / (int) Math.pow(10, (i - 1));
-			s = d * s;
-
-			System.out.println("факториал " + i + "го" + " числа " + d + " " + "из введенного числа " + a + " = " + s);
+			s = i * s;			
+		}
+		System.out.println("факториал введенного числа " + a + " = " + s);
+		sc.close();
 		}
 	}
 }
+//a = 10
+//факториал введенного числа 10 = 3628800
