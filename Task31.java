@@ -18,9 +18,9 @@ public static void task() {
 	System.out.print("Введите любое числло от 1 до 15 >>  ");
 	  e = sc.nextInt();
 	  System.out.println("e = "+ e);
-    System.out.println ("Случайное число =" + a);
-    if (a == e) System.out.println ("Поздравляю Вы угадали!!!");
-    else System.out.println ("Попробуйте еще раз. Обязательно повезет!)");
+    System.out.println ("Случайное число а = " + a);
+    if (a == e) System.out.println ("Поздравляю e = a = " + a + ", Вы угадали!!!");
+    else System.out.println ("Попробуйте еще раз. " + a + "не равно " + e + "; Обязательно повезет!)");
     System.out.println (" ");
 	}
 }
