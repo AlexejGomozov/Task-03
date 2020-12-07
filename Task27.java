@@ -21,7 +21,7 @@ public class Task27 {
 
 			System.out.println("делители числа " + i + ":");
 
-			for (int k = 2; k < n; k++) {
+			for (int k = 2; k < m; k++) {
 				d = i / k;
 
 				if (i % k == 0 & i != k)
