@@ -12,7 +12,7 @@ public static void task() {
 	n = 10;
 	sum = 0;
 	
-	for ( long i = 1; i< n; i++) {
+	for ( long i = 0; i< n; i++) {
 		
 		sum = a + i;
 		sum1 = sum1 * sum;
