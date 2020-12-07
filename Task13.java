@@ -13,6 +13,6 @@ public static void task() {
 		y =  (5 - x*x/2);
 	
 		
-	System.out.print(y + " ");}
+	System.out.print(y + ", ");}
 }
 }
