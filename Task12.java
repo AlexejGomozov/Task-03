@@ -9,15 +9,11 @@ public static void task() {
   long r, a; 
 	a = 1;
 	r = 1;
-	//a = 1;
-				for(int i=2; i<=10; i++)
+				for(int i=2; i<=10; i++){
 					
-		      {
-					a = 6 + a;
+			        a = 6 + (i-1);
 					
-				r = a * r;
-				System.out.print(r+" ");}
-			
-			
+				r = a * r;										
 }
+	                 System.out.print(r+" ");}
 }
