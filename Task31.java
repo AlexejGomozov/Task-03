@@ -22,6 +22,6 @@ public static void task() {
     if (a == e) System.out.println ("Поздравляю e = a = " + a + ", Вы угадали!!!");
     else System.out.println ("Попробуйте еще раз. " + a + "не равно " + e + "; Обязательно повезет!)");
     System.out.println (" ");
-	}
+	} 
 }
 }
