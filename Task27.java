@@ -18,15 +18,21 @@ public class Task27 {
 		System.out.println("n = " + n);
 
 		for (int i = m; i <= n; i++) {
-
-			System.out.println("делители числа " + i + ":");
-
-			for (int k = 2; k < m; k++) {
-				d = i / k;
-
-				if (i % k == 0 & i != k)
+			
+			for (int k = 2; k < i; k++) {
+			    d = i / k;
+				  if (i % k == 0 )
 					System.out.println("делитель числа " + i + " = " + d);
 			}
-		}
+		sc.close();
 	}
+    }
 }
+//m = 3
+//>> 8
+//n = 8
+//делитель числа 4 = 2
+//делитель числа 6 = 3
+//делитель числа 6 = 2
+//делитель числа 8 = 4
+//делитель числа 8 = 2
