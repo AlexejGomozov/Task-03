@@ -4,9 +4,9 @@ package by.htp.cycles.logic;
 
 public class Task33 {
 	public static void task() {
-		int s, f, c;
+		int s, f, max;
 		s = 5634566;
-		c = 1;
+		max = 0;
 		String s1 = String.valueOf(s);
 
 		for (int i = s1.length(); i > 0; i--) {
@@ -15,12 +15,11 @@ public class Task33 {
 
 			// f = (int)s1.charAt(i); в char число 6 по таблице равно 54;
 
-			if (c >= f) c = c ;
+			if (max <= f) max = f ;
 				
-			else  c = f ;
 				
 		}
-		System.out.println(c);
+		System.out.println(max);
 	}
 
 }
