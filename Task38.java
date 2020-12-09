@@ -13,7 +13,7 @@ public class Task38 {
 
 		for (m = 2; m < s.length(); m++) {
 
-			h1 = (n % (int) Math.pow(10, m)) / (int) Math.pow(10, m - 1);
+			h1 = (n % (int) Math.pow(10, m)) / (int) Math.pow(10, m - 1);             // код красивый, но неправильный. ПЕРЕДЕЛАТЬ
 			h2 = (n % (int) Math.pow(10, m - 1)) / (int) Math.pow(10, m - 2);
 
 			g = h2 - h1;
